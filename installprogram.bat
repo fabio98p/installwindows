@@ -73,5 +73,25 @@ echo Installazione di Figma...
 winget install -e --id=Figma.Figma
 if errorlevel 1 echo Errore durante l'installazione di Figma.
 
+echo Installazione di 7zip...
+winget install -e --id=7zip.7zip
+if errorlevel 1 echo Errore durante l'installazione di 7zip.
+
+echo Installazione di WinRAR...
+winget install -e --id=WinRAR.WinRAR
+if errorlevel 1 echo Errore durante l'installazione di WinRAR.
+
+echo Installazione di GeForce Experience...
+winget install -e --id=NVIDIA.GeForceExperience
+if errorlevel 1 echo Errore durante l'installazione di GeForce Experience.
+
+echo Installazione di Node.js...
+winget install -e --id=OpenJS.NodeJS
+if errorlevel 1 echo Errore durante l'installazione di Node.js.
+
+echo Installazione di NVM...
+winget install -e --id=coreybutler.nvm-windows
+if errorlevel 1 echo Errore durante l'installazione di NVM.
+
 echo Installazione completata.
 pause
